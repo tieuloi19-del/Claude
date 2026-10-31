@@ -1,0 +1,13 @@
+# Media is large: keep it out of git
+input/*
+output/*
+!input/.gitkeep
+!output/.gitkeep
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4a
+*.mp3
+*.wav
+node_modules/
